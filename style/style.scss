@@ -7,8 +7,21 @@
 }
 :root {
     --color-primary:  #bec3b0;
+    --color-dark1: #000000;
+    --color-dark2: #150050;
+    --color-dark3: #3F0071;
+    --color-dark4: #FB2576;
+    --color-light1: #F6F6C9;
+    --color-light2: #BAD1C2;
+    --color-light3: #4FA095;
+    --color-light4: #153462;
+    --br-sm-2:14px
 }
+    
 body{
-    background-color: #fb2576;
+    background-color: var(--color-primary);
     font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    color: var(--color-dark1);
+    
 }
